@@ -1,0 +1,16 @@
+package Test;
+
+public class DeluxeRoom extends HotelRoom {
+
+	public DeluxeRoom(String hotelName, int numberOfSqFeet, boolean hasTV, boolean hasWifi, int ratePerSqFeet) {
+		super(hotelName, numberOfSqFeet, hasTV, hasWifi);
+		// TODO Auto-generated constructor stub
+		
+		this.ratePerSqFeet=10;
+	}
+
+	
+	protected int ratePerSqFeet;
+	
+	
+}

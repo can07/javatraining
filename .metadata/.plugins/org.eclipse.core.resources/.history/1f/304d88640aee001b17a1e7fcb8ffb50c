@@ -1,0 +1,20 @@
+package Test;
+
+public class HotelRoom {
+
+	private String hotelName;
+	private int numberOfSqFeet;
+	private boolean hasTV;
+	private boolean hasWifi;
+	
+	
+	public HotelRoom(String hotelName, int numberOfSqFeet, boolean hasTV, boolean hasWifi) {
+		super();
+		this.hotelName = hotelName;
+		this.numberOfSqFeet = numberOfSqFeet;
+		this.hasTV = hasTV;
+		this.hasWifi = hasWifi;
+	}
+	
+	
+}

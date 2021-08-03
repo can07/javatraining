@@ -1,0 +1,17 @@
+package Test;
+
+import java.util.Scanner;
+
+public class MatchMain {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		Scanner scan = new Scanner(System.in);
+		System.out.println("Enter the Match Format");
+		int matchFormat;
+		matchFormat = scan.nextInt();
+		
+	}
+
+}

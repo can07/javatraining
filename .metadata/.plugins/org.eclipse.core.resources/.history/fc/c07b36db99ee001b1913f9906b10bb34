@@ -1,0 +1,23 @@
+package Test;
+
+import java.util.ArrayList;
+import java.util.Scanner;
+
+public class IPLSeason {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		ArrayList<String> list1 = new ArrayList<String>();
+		Scanner scan = new Scanner(System.in);
+	System.out.println("Enter the top 5 scores of IPL season 13");
+	String season13 =scan.nextLine();
+	//System.out.println(season13);
+	
+		ArrayList<String> list2 = new ArrayList<String>();
+		System.out.println("Enter the top 5 scores of IPL season 12");
+		String season12 = scan.nextLine();
+		list1.retainAll(list2)
+		//System.out.println(season12);
+	}
+
+}

@@ -1,0 +1,31 @@
+package Test;
+
+public class ODIMatch extends Match {
+	int currentscore;
+	float currentover;
+	int target;
+	//ODIMatch odi = new ODIMatch();
+	@Override
+	float calculateRunRate() {
+		// TODO Auto-generated method stub
+		
+		double reqRunrate = (target - currentscore)/(50 - currentover);
+		
+		return (float) reqRunrate;
+	}
+
+	@Override
+	int calculateBalls() {
+		// TODO Auto-generated method stub
+		
+		
+		return 0;
+	}
+
+	@Override
+	void display(double reqRunrate, int balls) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

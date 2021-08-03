@@ -1,0 +1,48 @@
+package Test;
+
+import java.util.Scanner;
+
+public class MatchMain {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Match match = new ODIMatch();
+		Match match1 = new T20Match();
+		Match match2 = new TestMatch();
+
+		Scanner scan = new Scanner(System.in);
+		System.out.println("Enter the Match Format: ");
+		int matchFormat;
+		matchFormat = scan.nextInt();
+		switch (matchFormat) {
+		case 1:
+
+            System.out.println("ODI");
+
+            break;
+
+      case 2:
+
+            System.out.println("T20");
+
+            break;
+
+      case 3:
+
+            System.out.println("Test");
+
+            break;
+            
+      default:
+
+          System.out.println("Invalid Format.");
+
+          break;
+		}
+		
+		System.out.println("Enter the current Score");
+		
+	}
+
+}

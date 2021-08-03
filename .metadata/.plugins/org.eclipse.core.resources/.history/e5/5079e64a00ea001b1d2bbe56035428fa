@@ -1,0 +1,19 @@
+package Test;
+
+import java.util.Scanner;
+
+public class Jhon {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+Scanner scan = new Scanner(System.in);
+System.out.println("Enter the size of Array");
+int size = scan.nextInt();
+int [] array = new int[size];
+for(int i=0;i<size;i++) {
+	System.out.println("Enter the elements");
+	array[i]=scan.nextInt();
+}
+	}
+
+}

@@ -1,0 +1,10 @@
+package Test;
+
+public class HotelRoom {
+
+	private String hotelName;
+	private int numberOfSqFeet;
+	private boolean hasTV;
+	private boolean hasWifi;
+	
+}

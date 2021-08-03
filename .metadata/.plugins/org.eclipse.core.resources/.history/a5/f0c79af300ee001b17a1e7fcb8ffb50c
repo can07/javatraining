@@ -1,0 +1,28 @@
+package Test;
+
+public class TestMatch extends Match {
+
+	@Override
+	float calculateRunRate(int currentscore, float currentover, int target) {
+		// TODO Auto-generated method stub
+		
+		double reqRunrate = (target - currentscore)/(90 - currentover);
+		return (float) reqRunrate ;
+	}
+
+	@Override
+	int calculateBalls(float currentover) {
+		// TODO Auto-generated method stub
+		
+		int balls = (int) ((90 - currentover)/6);
+		return balls;
+	
+	}
+
+	@Override
+	void display(double reqRunrate, int balls) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

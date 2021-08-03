@@ -1,0 +1,25 @@
+package Test;
+
+public class T20Match extends Match{
+
+	@Override
+	float calculateRunRate(int currentscore, float currentover, int target) {
+		// TODO Auto-generated method stub
+		double reqRunrate = (target - currentscore)/(20 - currentover);
+		return (float) reqRunrate ;
+	}
+
+	@Override
+	int calculateBalls(float currentover) {
+		// TODO Auto-generated method stub
+		int balls = (int) ((20 - currentover)/6);
+		return balls;
+	}
+
+	@Override
+	void display(double reqRunrate, int balls) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}
